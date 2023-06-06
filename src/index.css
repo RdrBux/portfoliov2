@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.rotated {
+  transform: rotateX(50deg) rotateZ(-35deg) scale(100%);
+}
+
+@tailwind utilities;
