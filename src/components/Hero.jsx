@@ -9,9 +9,9 @@ export default function Hero() {
         digitales únicas
       </h1>
 
-      <div className="absolute bottom-8 mt-20">
+      <div className="absolute bottom-24 mt-20 lg:bottom-8">
         <p className="text-sm font-bold uppercase">Rodrigo Rodríguez</p>
-        <p className="text-xs text-gray-200">Desarrollador Web Fullstack</p>
+        <p className="text-xs text-sky-200">Desarrollador Web Fullstack</p>
       </div>
     </div>
   );
