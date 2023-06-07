@@ -2,7 +2,7 @@ export default function Work() {
   return (
     <div id="work" className="container mx-auto mt-40 p-4">
       <div className="p-4 lg:p-10">
-        <h2 className="text-2xl font-bold text-sky-400">
+        <h2 className="text-2xl font-bold text-indigo-400">
           • Trabajos recientes
         </h2>
         <p className="mt-2 text-5xl font-bold lg:text-7xl">
@@ -12,10 +12,10 @@ export default function Work() {
       </div>
       <div className="grid rounded-2xl bg-white/5 py-10 lg:grid-cols-2">
         <div className="flex flex-col gap-4 px-4 lg:px-10">
-          <p className="text-sm font-semibold uppercase tracking-wider text-sky-300">
-            Portfolio personal
+          <p className="text-sm font-semibold uppercase tracking-wider text-indigo-300">
+            Sitio web personal
           </p>
-          <h4 className="text-5xl font-bold lg:text-7xl">Dulcinea Rodríguez</h4>
+          <h4 className="text-5xl font-bold lg:text-7xl">Dulcinea</h4>
           <p className="text-lg text-gray-200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
             nesciunt et laudantium dicta non, consequatur iure assumenda quos

@@ -46,13 +46,13 @@ export default function About() {
   return (
     <div id="about" className="container mx-auto px-4 py-40 uppercase">
       <div className="flex flex-col items-center">
-        <div className="h-40 w-40 rounded-full bg-sky-500"></div>
+        <div className="h-40 w-40 rounded-full bg-indigo-500"></div>
         <h2 className="mt-8 text-center text-4xl font-bold lg:text-6xl">
           ¡Hola, soy Rodrigo!
         </h2>
       </div>
       <div>
-        <div id="text" className="mt-16 text-xl font-medium lg:text-4xl">
+        <div id="text" className="mt-16 text-2xl font-medium lg:text-4xl">
           <p className="leading-tight">{firstTextDisplay}</p>
           <p className="mt-6 leading-tight">{secondTextDisplay}</p>
         </div>

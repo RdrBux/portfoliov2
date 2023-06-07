@@ -3,7 +3,7 @@ import Navlinks from './Navlinks';
 
 export default function Navbar() {
   return (
-    <div className="container fixed left-0 right-0  top-8 z-50 mx-auto hidden items-center justify-between text-sm lg:flex">
+    <div className="navbar | container fixed left-0 right-0 top-8  z-50 mx-auto flex items-center justify-between px-4 text-sm">
       <div className="text-lg font-bold">RR</div>
       <Navlinks />
       <DivGlass>

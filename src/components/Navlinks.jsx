@@ -3,9 +3,9 @@ import Navlink from './Navlink';
 
 export default function Navlinks() {
   return (
-    <nav>
+    <nav className="hidden lg:block">
       <DivGlass>
-        <ul className="flex rounded-2xl bg-clip-padding px-8 font-medium">
+        <ul className="flex rounded-2xl bg-clip-padding px-8 font-medium ">
           <Navlink text="Inicio" link="home" />
           <Navlink text="Sobre mí" link="about" />
           <Navlink text="Proyectos" link="work" />
