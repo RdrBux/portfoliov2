@@ -1,6 +1,7 @@
 import { gsap } from 'gsap';
 import { useLayoutEffect } from 'react';
 import WordReveal from './WordReveal';
+import DivGlass from './DivGlass';
 
 export default function About() {
   const firstText =
@@ -46,7 +47,9 @@ export default function About() {
   return (
     <div id="about" className="container mx-auto px-4 py-40 uppercase">
       <div className="flex flex-col items-center">
-        <div className="h-40 w-40 rounded-full bg-indigo-500"></div>
+        <DivGlass className="p-4">
+          <div className="m-2 h-40 w-40 rounded-2xl bg-indigo-500"></div>
+        </DivGlass>
         <h2 className="mt-8 text-center text-4xl font-bold lg:text-6xl">
           ¡Hola, soy Rodrigo!
         </h2>

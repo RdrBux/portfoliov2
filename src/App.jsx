@@ -32,8 +32,8 @@ function App() {
 
   return (
     <div className="relative bg-black font-sans text-white">
-      <div className="fixed left-16 top-1/4 h-[35vw] w-[35vw] animate-blob rounded-full bg-teal-300/10 blur-3xl filter"></div>
-      <div className="animation-delay-4000 fixed right-16 top-0 h-[35vw] w-[35vw] animate-blob rounded-full bg-sky-300/10 blur-3xl filter"></div>
+      <div className="fixed bottom-1/4 left-16 h-[35vw] w-[40vw] animate-blob rounded-full bg-teal-300/10 blur-3xl filter md:top-1/4"></div>
+      <div className="animation-delay-4000 fixed right-16 top-1/4 h-[35vw] w-[35vw] animate-blob rounded-full bg-sky-300/10 blur-3xl filter md:top-0"></div>
 
       <div className="relative z-40">
         <MouseContextProvider>
