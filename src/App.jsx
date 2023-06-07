@@ -7,6 +7,7 @@ import Work from './components/Work';
 import { ScrollTrigger } from 'gsap/all';
 import Contact from './components/Contact';
 import { useLayoutEffect } from 'react';
+import { MouseContextProvider } from './context/mouseContext';
 
 function App() {
   gsap.registerPlugin(ScrollTrigger);
@@ -35,12 +36,14 @@ function App() {
       <div className="animation-delay-4000 fixed right-16 top-0 h-[35vw] w-[35vw] animate-blob rounded-full bg-sky-300/10 blur-3xl filter"></div>
 
       <div className="relative z-40">
-        <Navbar />
-        <Hero />
-        <About />
-        <Skills />
-        <Work />
-        <Contact />
+        <MouseContextProvider>
+          <Navbar />
+          <Hero />
+          <About />
+          <Skills />
+          <Work />
+          <Contact />
+        </MouseContextProvider>
       </div>
     </div>
   );

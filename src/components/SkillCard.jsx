@@ -2,8 +2,7 @@ import DivGlass from './DivGlass';
 
 export default function SkillCard() {
   return (
-    <div className="group relative cursor-default duration-100">
-      <div className="absolute inset-0 rounded-2xl border-x-indigo-300 border-y-blue-300 blur-sm duration-100 group-hover:border-2"></div>
+    <div className="relative cursor-default">
       <DivGlass>
         <div className="p-6">
           <p className="text-sm uppercase tracking-widest text-indigo-300">
