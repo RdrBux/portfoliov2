@@ -7,7 +7,7 @@ import Work from './components/Work';
 import { ScrollTrigger } from 'gsap/all';
 import Contact from './components/Contact';
 import { useLayoutEffect } from 'react';
-import { MouseContextProvider } from './context/mouseContext';
+import { MouseContextProvider } from './context/MouseContext';
 
 function App() {
   gsap.registerPlugin(ScrollTrigger);

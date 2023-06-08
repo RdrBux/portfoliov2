@@ -1,6 +1,6 @@
 export default function Work() {
   return (
-    <div id="work" className="container mx-auto mt-40 p-4">
+    <div id="work" className="container mx-auto mt-40 px-4">
       <div className="p-4 lg:p-10">
         <h2 className="text-2xl font-bold text-indigo-400">
           • Trabajos recientes

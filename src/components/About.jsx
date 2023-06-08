@@ -23,7 +23,7 @@ export default function About() {
           scrollTrigger: {
             trigger: '#about',
             scrub: 0.5,
-            start: 'top -30%',
+            start: 'top 0%',
             end: 'bottom 0%',
             pin: true,
             //markers:true
@@ -45,17 +45,23 @@ export default function About() {
   }, []);
 
   return (
-    <div id="about" className="container mx-auto px-4 py-40 uppercase">
+    <div
+      id="about"
+      className="container mx-auto px-4 py-28 lg:my-40 lg:py-4 2xl:py-32"
+    >
       <div className="flex flex-col items-center">
         <DivGlass className="p-4">
           <div className="m-2 h-40 w-40 rounded-2xl bg-indigo-500"></div>
         </DivGlass>
-        <h2 className="mt-8 text-center text-4xl font-bold lg:text-6xl">
+        <h2 className="mt-8 text-center text-4xl font-bold lg:text-6xl 2xl:text-7xl">
           ¡Hola, soy Rodrigo!
         </h2>
       </div>
       <div>
-        <div id="text" className="mt-16 text-2xl font-medium lg:text-4xl">
+        <div
+          id="text"
+          className="mt-16 text-2xl font-medium lg:text-4xl 2xl:text-5xl"
+        >
           <p className="leading-tight">{firstTextDisplay}</p>
           <p className="mt-6 leading-tight">{secondTextDisplay}</p>
         </div>
